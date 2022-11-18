@@ -1,0 +1,1 @@
+FILE *openFile(const char *file, const char *mode);
