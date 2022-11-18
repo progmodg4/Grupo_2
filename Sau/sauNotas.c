@@ -28,7 +28,6 @@ void consultaNotasAlun(char* matr)
     // preciso de temporarios para guardar as outras informacoes
     // presentes no arquivo
     // procura no arquivo a matricula do aluno
-    printf("ENTROU\n");
     while (!feof(arq))
     {
         // procuro a matricula
