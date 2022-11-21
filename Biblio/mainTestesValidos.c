@@ -5,7 +5,7 @@
 #include "addLivro.h"
 #include "abreArquivo.h"
 
-#define NOMEARQ "BaseLivrosValidos.txt"
+#define NOMEARQ "../Bases/BaseLivrosValidos.txt"
 
 int tests_run = 1;
 

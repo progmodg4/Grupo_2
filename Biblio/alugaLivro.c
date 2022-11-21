@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "abreArquivo.h"
-#define NOMEARQAUX "auxiliar.txt"
+#define NOMEARQAUX "../Bases/auxiliar.txt"
 #define TAMLIV 21
 #define TAMEDI 15
 #define TAMUSU 21

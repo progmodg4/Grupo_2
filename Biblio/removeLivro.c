@@ -3,7 +3,7 @@
 #include "abreArquivo.h"
 #define TAMLIV 21
 #define TAMEDI 15
-#define NOMEARQAUX "auxiliar.txt"
+#define NOMEARQAUX "../Bases/auxiliar.txt"
 
 // retorna 2 quano o livro ja esta alugado 
 // retorna 1 quando o livro é removido com sucesso

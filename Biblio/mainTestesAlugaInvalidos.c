@@ -4,7 +4,7 @@
 #include "alugaLivro.h"
 
 
-#define NOMEARQ "BaseLivrosAlugaInvalido.txt"
+#define NOMEARQ "../Bases/BaseLivrosAlugaInvalido.txt"
 
 int tests_run = 1;
 
