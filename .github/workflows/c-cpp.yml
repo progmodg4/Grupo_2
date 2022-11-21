@@ -11,9 +11,11 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-    - name: configure
-      run: git clone https://gist.github.com/1f45a929aba4eb91f376.git minunit
-    - name: Enter framework folder
-      run: cd minunit
-    - name: make teste
-      run: make teste
+    - name: Build Aluga Testes Invalidos
+      run: gcc mainTestAlugaInvalidos.c -lrt -lm -o mainTestAlugaInvalidos
+    - name: Build Aluga Testes Validos
+      run: gcc mainTestAlugaValidos.c -lrt -lm -o mainTestAlugaValidos
+    - name: Build Testes Validos 
+      run: gcc mainTestValidos.c -lrt -lm -o mainTestValidos
+    - name: Build Testes Invalidos 
+      run: gcc mainTestInvalidos.c -lrt -lm -o mainTestInvalidos
