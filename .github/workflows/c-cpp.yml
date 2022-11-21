@@ -12,18 +12,10 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Build Aluga Testes Invalidos
-    - run: |
-        cd Biblio
-        gcc mainTestesAlugaInvalidos.c -lrt -lm -o mainTestesAlugaInvalidos
+    - run: gcc Biblio/mainTestesAlugaInvalidos.c -lrt -lm -o mainTestesAlugaInvalidos
     - name: Build Aluga Testes Validos
-    - run: |
-        cd Biblio
-        gcc mainTestesAlugaValidos.c -lrt -lm -o mainTestesAlugaValidos
+    - run: gcc Biblio/mainTestesAlugaValidos.c -lrt -lm -o mainTestesAlugaValidos
     - name: Build Testes Validos 
-    - run: |
-        cd Biblio
-        gcc mainTestesValidos.c -lrt -lm -o mainTestesValidos
+    - run: gcc Biblio/mainTestesValidos.c -lrt -lm -o mainTestesValidos
     - name: Build Testes Invalidos 
-    - run: |
-        cd Biblio
-        gcc mainTestesInvalidos.c -lrt -lm -o mainTestesInvalidos 
+    - run: gcc Biblio/mainTestesInvalidos.c -lrt -lm -o mainTestesInvalidos 
