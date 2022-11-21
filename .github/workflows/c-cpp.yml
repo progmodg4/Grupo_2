@@ -16,6 +16,6 @@ jobs:
     - name: Build Aluga Testes Validos
       run: gcc Biblio/mainTestesAlugaValidos.c Biblio/alugaLivro.c Biblio/abreArquivo.c -lrt -lm -o mainTestesAlugaValidos
     - name: Build Testes Validos 
-      run: gcc Biblio/mainTestesValidos.c Biblio/alugaLivro.c Biblio/abreArquivo.c Biblio/removeLivro.c -lrt -lm -o mainTestesValidos
+      run: gcc Biblio/mainTestesValidos.c  Biblio/addLivro.c Biblio/abreArquivo.c Biblio/removeLivro.c -lrt -lm -o mainTestesValidos
     - name: Build Testes Invalidos 
-      run: gcc Biblio/mainTestesInvalidos.c Biblio/alugaLivro.c Biblio/abreArquivo.c Biblio/removeLivro.c -lrt -lm -o mainTestesInvalidos 
+      run: gcc Biblio/mainTestesInvalidos.c Biblio/addLivro.c Biblio/abreArquivo.c Biblio/removeLivro.c -lrt -lm -o mainTestesInvalidos 
