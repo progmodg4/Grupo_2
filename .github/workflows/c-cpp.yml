@@ -14,10 +14,10 @@ jobs:
     - name: entrar na pasta
       run: cd Biblio
     - name: Build Aluga Testes Invalidos
-      run: gcc mainTesteAlugaInvalidos.c -lrt -lm -o mainTestAlugaInvalidos
+      run: gcc mainTestesAlugaInvalidos.c -lrt -lm -o mainTestesAlugaInvalidos
     - name: Build Aluga Testes Validos
-      run: gcc mainTesteAlugaValidos.c -lrt -lm -o mainTestAlugaValidos
+      run: gcc mainTestesAlugaValidos.c -lrt -lm -o mainTestesAlugaValidos
     - name: Build Testes Validos 
-      run: gcc mainTesteValidos.c -lrt -lm -o mainTestValidos
+      run: gcc mainTestesValidos.c -lrt -lm -o mainTestesValidos
     - name: Build Testes Invalidos 
-      run: gcc mainTesteInvalidos.c -lrt -lm -o mainTestInvalidos
+      run: gcc mainTestesInvalidos.c -lrt -lm -o mainTestesInvalidos
