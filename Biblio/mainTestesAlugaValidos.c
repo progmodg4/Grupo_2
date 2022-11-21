@@ -11,8 +11,8 @@ int tests_run = 1;
 static char* testesValidos(void) {
     puts("Iniciando Testes Validos!!\n");
 
-    mu_assert("Teste alugando um livro \n", 1 == alugaLivro(NOMEARQ, 120, 2111295));
-    mu_assert("Teste alugando um livro \n", 1 == alugaLivro(NOMEARQ, 121, 2111111));
+    mu_assert("Teste alugando um livro \n", 1 == alugaLivro(NOMEARQ, 120, "2111295"));
+    mu_assert("Teste alugando um livro \n", 1 == alugaLivro(NOMEARQ, 121, "2111111"));
 
     return 0;
 }
