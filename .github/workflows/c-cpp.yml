@@ -12,10 +12,10 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Build Aluga Testes Invalidos
-      run: gcc Biblio/mainTestesAlugaInvalidos.c  alugaLivro.c abreArquivo.c -lrt -lm -o mainTestesAlugaInvalidos 
+      run: gcc Biblio/mainTestesAlugaInvalidos.c  Biblio/alugaLivro.c Biblio/abreArquivo.c -lrt -lm -o mainTestesAlugaInvalidos 
     - name: Build Aluga Testes Validos
-      run: gcc Biblio/mainTestesAlugaValidos.c alugaLivro.c abreArquivo.c -lrt -lm -o mainTestesAlugaValidos
+      run: gcc Biblio/mainTestesAlugaValidos.c Biblio/alugaLivro.c Biblio/abreArquivo.c -lrt -lm -o mainTestesAlugaValidos
     - name: Build Testes Validos 
-      run: gcc Biblio/mainTestesValidos.c alugaLivro.c abreArquivo.c removeLivro.c -lrt -lm -o mainTestesValidos
+      run: gcc Biblio/mainTestesValidos.c Biblio/alugaLivro.c Biblio/abreArquivo.c Biblio/removeLivro.c -lrt -lm -o mainTestesValidos
     - name: Build Testes Invalidos 
-      run: gcc Biblio/mainTestesInvalidos.c alugaLivro.c abreArquivo.c removeLivro.c -lrt -lm -o mainTestesInvalidos 
+      run: gcc Biblio/mainTestesInvalidos.c Biblio/alugaLivro.c Biblio/abreArquivo.c Biblio/removeLivro.c -lrt -lm -o mainTestesInvalidos 
