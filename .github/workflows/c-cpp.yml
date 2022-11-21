@@ -11,6 +11,8 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
+    - name: entrar na pasta
+      run: cd biblio
     - name: Build Aluga Testes Invalidos
       run: gcc mainTestAlugaInvalidos.c -lrt -lm -o mainTestAlugaInvalidos
     - name: Build Aluga Testes Validos
