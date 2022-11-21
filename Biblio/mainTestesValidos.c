@@ -12,9 +12,9 @@ int tests_run = 1;
 static char *testesValidos(void){
     puts("Iniciando Testes Validos!!\n");
 
-    mu_assert("Teste adicionando um novo livro \n", 1==addLivro(NOMEARQ, 120,"Jogos Vorazes", "Rocco",2111295));
-    mu_assert("Teste adicionando um novo livro \n", 1==addLivro(NOMEARQ, 121,"Crônicas de Gelo Fogo", "Leya",2321223));
-    mu_assert("Teste adicionando um novo livro \n", 1==addLivro(NOMEARQ, 122,"Diário de Um Banana", "VR Editora",23232231));
+    mu_assert("Teste adicionando um novo livro \n", 1==addLivro(NOMEARQ, 120,"Jogos Vorazes", "Rocco"));
+    mu_assert("Teste adicionando um novo livro \n", 1==addLivro(NOMEARQ, 121,"Cronica Gelo Fogo", "Leya"));
+    mu_assert("Teste adicionando um novo livro \n", 1==addLivro(NOMEARQ, 122,"Diario de Um", "VR Editora"));
     mu_assert("Teste removendo o livro de código 121 \n", 1==removeLivro(NOMEARQ, 121));
     mu_assert("Teste removendo o livro de código 122 \n", 1==removeLivro(NOMEARQ, 122));
 
