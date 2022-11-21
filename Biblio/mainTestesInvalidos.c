@@ -13,7 +13,7 @@ static char * testesInvalidos(void){
     puts("Iniciando testes Invalidos!!\n");
 
     mu_assert("Teste removendo livro que está alugado", 2==removeLivro(NOMEARQ,121));
-    mu_assert("Teste adicionando livro que ja existe", 0==addLivro(NOMEARQ, 122,"Diário de Um Banana", "VR Editora",23232231));
+    mu_assert("Teste adicionando livro que ja existe", 0==addLivro(NOMEARQ, 122,"Diário de Um Banana", "VR Editora"));
 }
 
 static char *testes(void) {
