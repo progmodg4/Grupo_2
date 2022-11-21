@@ -1,0 +1,1 @@
+int cadastrar(char *nomeArq, char *usuario, char *senha);

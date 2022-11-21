@@ -1,0 +1,1 @@
+char* fazLogin(int tipo_usuario, int *check);
