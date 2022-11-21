@@ -11,13 +11,19 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-    - name: entrar na pasta
-      run: cd Biblio
     - name: Build Aluga Testes Invalidos
-      run: gcc mainTestesAlugaInvalidos.c -lrt -lm -o mainTestesAlugaInvalidos
+    - run: |
+        cd Biblio
+        gcc mainTestesAlugaInvalidos.c -lrt -lm -o mainTestesAlugaInvalidos
     - name: Build Aluga Testes Validos
-      run: gcc mainTestesAlugaValidos.c -lrt -lm -o mainTestesAlugaValidos
+    - run: |
+        cd Biblio
+        gcc mainTestesAlugaValidos.c -lrt -lm -o mainTestesAlugaValidos
     - name: Build Testes Validos 
-      run: gcc mainTestesValidos.c -lrt -lm -o mainTestesValidos
+    - run: |
+        cd Biblio
+        gcc mainTestesValidos.c -lrt -lm -o mainTestesValidos
     - name: Build Testes Invalidos 
-      run: gcc mainTestesInvalidos.c -lrt -lm -o mainTestesInvalidos
+    - run: |
+        cd Biblio
+        gcc mainTestesInvalidos.c -lrt -lm -o mainTestesInvalidos 
