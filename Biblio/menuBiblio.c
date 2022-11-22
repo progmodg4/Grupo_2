@@ -4,7 +4,7 @@
 #include "alugaLivro.h"
 #include "verLivros.h"
 
-#define NOMEARQLIVROS "BaseLivros.txt"
+#define NOMEARQLIVROS "../Bases/BaseLivros.txt"
 #define TAMLIV 21
 #define TAMEDI 15
 
