@@ -5,7 +5,7 @@
 
 #define TAMUSU 21
 #define TAMSE 15
-#define ARQAUX "cadastroAux.txt"
+#define ARQAUX "../cadastroAux.txt"
 
 // vai copiando para o arquivo auxiliar ate 
 // encontrar a matricula procurada
