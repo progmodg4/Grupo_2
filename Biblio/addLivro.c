@@ -32,7 +32,7 @@ int addLivro(char *nomeArq, int id, char *nomeLivro, char *editora)
         //cadastra um novo livro
         int alugado = 0;
         arq = openFile(nomeArq, "a");
-        fprintf(arq, "%d, %s, %s, %d", id, nomeLivro, editora, alugado);
+        fprintf(arq, "%d, %s, %s, %d\n", id, nomeLivro, editora, alugado);
         fclose(arq);
     }
     return 1;
