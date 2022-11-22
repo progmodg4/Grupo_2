@@ -5,8 +5,8 @@
 
 // txt no formato 
 // mat(aluno) disciplina nota 
-#define ARQNOTA "matDiscNotAlu.txt"
-#define ARQDISC "matDiscHorProf.txt"
+#define ARQNOTA "../matDiscNotAlu.txt"
+#define ARQDISC "../matDiscHorProf.txt"
 #define TAMUSU 21
 #define TAMDISC 81
 #define TAMHOR 6
