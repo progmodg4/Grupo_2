@@ -15,6 +15,8 @@ na main 1 enviara mensagem de erro "login ou senha invalido"
 // manda arquivo ja aberto que contem todos os logins ja cadastrados 
 // para testar 
 
+//retorna 1 caso nao encontre o login no arquivo
+//retorna 0 caso encontre
 int buscaArq(FILE *arq, char *usuario, char *senha)
 {
     int cmp; // pega retorno de strcmp 
