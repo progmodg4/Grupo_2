@@ -1,5 +1,5 @@
 /**
- * @brief Trcoa a senha de um usuário no arquivo com os cadastros de login.
+ * @brief Troca a senha de um usuário no arquivo com os cadastros de login.
  * 
  * @param {char *nomeArq} Nome do arquivo com os cadastros.
  * @param {char *usuario} Matrícula do usuário.
