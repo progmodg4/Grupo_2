@@ -1,5 +1,5 @@
 /**
- * @brief Usa funcao de busca para encontrar se o login (par matrícula e senha) inserido existe dentro do arquivo com os cadastros de login.
+ * @brief Usa funcao de busca para verificar se o login (par matrícula e senha) inserido existe dentro do arquivo com os cadastros de login.
  * 
  * @param {FILE *arq} Nome do arquivo com todos os cadastros de login.
  * @param {char *usuario} Matrícula inserida pelo usuário.
