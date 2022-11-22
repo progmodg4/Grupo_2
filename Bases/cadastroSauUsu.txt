@@ -1,0 +1,6 @@
+gbr, 123321
+50123, password=123
+20211, @pass10
+jpls, senha90%
+50124, pucrj
+maria, mariazinha10@!
