@@ -2,8 +2,8 @@
 #include <string.h>
 #include "abreArquivo.h"
 
-#define ARQUSU "../livrosAlugadosUsu.txt"
-#define ARQFUNC "../BaseLivros.txt"
+#define ARQUSU "../Bases/livrosAlugadosUsu.txt"
+#define ARQFUNC "../Bases/BaseLivros.txt"
 #define TAMUSU 21
 #define TAMLIV 21
 #define TAMEDI 15
