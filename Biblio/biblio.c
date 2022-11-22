@@ -33,8 +33,10 @@ int main(void)
     // chama menu sau com tipo de usuario
     // tudo vai ser feito dentro do modulo menusau
     // menusau chama as outras funcoes
-    if(check == 0)
-        menuBiblio(tipo_usuario, matr);
+    if (check == 0 && tipo_usuario == 1) // chama menu usuario
+        menuBiblioUsu(matr);
+    else if(check == 0 && tipo_usuario == 2) // chama menu funcionario
+        menuBiblioFunc();
     // quando voltar eh porque quer sair
     return 0;
 }

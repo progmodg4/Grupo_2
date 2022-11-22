@@ -1,1 +1,2 @@
-void menuBiblio(int tipo_usuario, char* matr);
+menuBilioFunc();
+menuBiblioUsu(char* matr);

@@ -1,0 +1,7 @@
+gbr, Programacao Modular, 07:00
+50123, Historia da Arte, 13:30
+50123, Historia Contemporanea, 17:45
+gbr, Software Basico, 13:00
+50124, Direito Constitucional, 15:30
+gbr, Calculo 2, 15:00
+50124, Design, 18:00

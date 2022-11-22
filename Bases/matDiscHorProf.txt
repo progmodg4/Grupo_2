@@ -1,0 +1,10 @@
+013070, Programacao Modular, 07:00
+3456, Historia da Arte, 13:30
+0130, Design, 13:30
+2110j, Direito Penal, 19:30
+3456, Historia Contemporanea, 17:45
+2110j, Direito Constitucional, 15:30
+013070, Programacao Modular, 19:00
+mat123, Calculo 2, 15:00
+0130, Design, 18:00
+013070, Software Basico, 13:00
