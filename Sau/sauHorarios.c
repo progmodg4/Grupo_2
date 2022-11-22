@@ -2,8 +2,8 @@
 #include <string.h>
 #include "abreArquivo.h"
 
-#define ARQUSU "matDiscHorAlu.txt"
-#define ARQFUNC "matDiscHorProf.txt"
+#define ARQUSU "../matDiscHorAlu.txt"
+#define ARQFUNC "../matDiscHorProf.txt"
 #define TAMMAT 21
 #define TAMDISC 81
 #define TAMHORA 6
