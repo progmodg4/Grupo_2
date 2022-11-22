@@ -12,14 +12,32 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Build Aluga Testes Invalidos
-      run: gcc Biblio/mainTestesAlugaInvalidos.c  Biblio/alugaLivro.c Biblio/abreArquivo.c -lrt -lm -o mainTestesAlugaInvalidos 
+      run: |
+        cd Biblio
+        gcc mainTestesAlugaInvalidos.c  alugaLivro.c abreArquivo.c -o mainTestesAlugaInvalidos
+        ./mainTestesAlugaInvalidos
     - name: Build Aluga Testes Validos
-      run: gcc Biblio/mainTestesAlugaValidos.c Biblio/alugaLivro.c Biblio/abreArquivo.c -lrt -lm -o mainTestesAlugaValidos
+      run: |
+        cd Biblio
+        gcc mainTestesAlugaValidos.c alugaLivro.c abreArquivo.c -o mainTestesAlugaValidos
+        ./mainTestesAlugaValidos
     - name: Build Testes Validos 
-      run: gcc Biblio/mainTestesValidos.c  Biblio/addLivro.c Biblio/abreArquivo.c Biblio/removeLivro.c -lrt -lm -o mainTestesValidos
+      run: |
+        cd Biblio
+        gcc mainTestesValidos.c  addLivro.c abreArquivo.c removeLivro.c -o mainTestesValidos
+        ./mainTestesValidos
     - name: Build Testes Invalidos 
-      run: gcc Biblio/mainTestesInvalidos.c Biblio/addLivro.c Biblio/abreArquivo.c Biblio/removeLivro.c -lrt -lm -o mainTestesInvalidos 
+      run: |
+        cd Biblio
+        gcc mainTestesInvalidos.c addLivro.c abreArquivo.c removeLivro.c -o mainTestesInvalidos 
+        ./mainTestesInvalidos
     - name: Build Testes Login 
-      run: gcc Sau/mainTesteLogin.c Sau/abreArquivo.c Sau/login.c -lrt -lm -o mainTesteLogin
+      run: |
+        cd Sau
+        gcc mainTesteLogin.c abreArquivo.c login.c -o mainTesteLogin
+        ./mainTesteLogin
     - name: Build Testes Cadastro 
-      run: gcc Sau/mainTesteCadastro.c Sau/abreArquivo.c Sau/cadastro.c -lrt -lm -o mainTesteCadastro
+      run: |
+        cd Sau
+        gcc mainTesteCadastro.c abreArquivo.c cadastro.c -o mainTesteCadastro
+        ./mainTesteCadastro
