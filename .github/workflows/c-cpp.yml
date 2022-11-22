@@ -19,3 +19,7 @@ jobs:
       run: gcc Biblio/mainTestesValidos.c  Biblio/addLivro.c Biblio/abreArquivo.c Biblio/removeLivro.c -lrt -lm -o mainTestesValidos
     - name: Build Testes Invalidos 
       run: gcc Biblio/mainTestesInvalidos.c Biblio/addLivro.c Biblio/abreArquivo.c Biblio/removeLivro.c -lrt -lm -o mainTestesInvalidos 
+    - name: Build Testes Login 
+      run: gcc Sau/mainTesteLogin.c Sau/mainTesteLogin.c Sau/abreArquivo.c Sau/login.c -lrt -lm -o mainTesteLogin
+    - name: Build Testes Cadastro 
+      run: gcc Sau/mainTesteCadastro.c Sau/mainTesteLogin.c Sau/abreArquivo.c Sau/cadastro.c -lrt -lm -o mainTesteCadastro
